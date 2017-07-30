@@ -1,0 +1,39 @@
+
+/* 
+  fields at the registrar when entering new student 
+*/
+.reg_myField{
+	text-transform: capitalize;
+    height: 10px;
+    /* background-color: #9fb1a1; */
+    background-color: #f1f1f1;
+    color: #080e5a !important; 
+}
+
+.reg_Drop{
+
+	 height: 43px !important;
+    font-size: 13px !important;
+}
+
+
+/* custom css styles */
+/* turn off the number spiner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* text area not resizable */
+textarea{
+
+	resize: none;
+	width: 238px;;
+}
+
+
+
+/* 
+  the following css is for the main page of the registrar 
+*/

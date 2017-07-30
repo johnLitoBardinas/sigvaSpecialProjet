@@ -1,0 +1,80 @@
+/*  the following css is for john lito  */
+
+.cust_navbar{
+
+	/* background-color: rgba(16, 72, 104, .9); */
+	background: linear-gradient(rgba(16, 72, 104, .9), rgba(151, 167, 104, .5));
+}
+
+.cust_drop{
+
+	cursor:pointer;
+	display: block;
+}
+
+.cust_form_panel{
+
+	width: inherit;
+}
+
+.box-header{
+
+
+    /* background-color: darkgray; */
+    background-color: #04b16c;
+    color: #fff;
+    /* font-stretch: ultra-condensed; */
+    font-size: 2;
+    font-weight: 600;
+
+}
+
+.form-actions{
+
+	/* background-color: darkgray; */
+    background-color: #04b16c;
+    color: #fff;
+    /* font-stretch: ultra-condensed; */
+    font-size: 2;
+    font-weight: 600;
+}
+
+.cust_head{
+
+
+    font-size: 22px;
+    font-stretch: extra-condensed;
+    /* font-weight: bold; */
+
+}
+
+
+/* html element */
+
+iframe{
+
+	top:0;
+	margin:0; 
+	height: 93%; 
+	overflow: hidden; 
+	position: absolute; 
+	left:0; right:0; 
+}
+
+textarea{
+
+	resize: none;
+	width: 35%;
+}
+
+a.submenu{
+
+	background-color:#708f93;
+}
+
+/* turn off the number spiner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
